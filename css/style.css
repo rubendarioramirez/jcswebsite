@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     background: #fff;
 }
 
@@ -27,7 +27,7 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: 'Limelight', cursive;
+    font-family: 'Helvetica', cursive;
 }
 
 p {
