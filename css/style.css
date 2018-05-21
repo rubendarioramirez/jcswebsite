@@ -1905,6 +1905,10 @@ h2.typoh2 {
         display: none;
     }
 
+    .services-w3text:before {
+    top: 55px;
+    }
+
 }
 
 @media (max-width:640px) {
