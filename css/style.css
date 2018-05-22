@@ -1905,6 +1905,8 @@ h2.typoh2 {
         display: none;
     }
 
+
+
 }
 
 @media (max-width:640px) {
@@ -2008,6 +2010,10 @@ h2.typoh2 {
 
     .hdr-w3left {
         display: none;
+    }
+
+    .services-w3text:before {
+    top: 55px;
     }
 }
 
