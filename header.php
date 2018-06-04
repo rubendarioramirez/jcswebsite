@@ -68,7 +68,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span data-letters="Pages">Admissions</span><span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="admissions.html">Admissions Procedures</a></li>
-                                        <li><a href="tuition.html">Tuiton Fees</a></li>
+                                        <li><a href="tuition.html">Tuition Fees</a></li>
                                     </ul>
                                 </li>
 
