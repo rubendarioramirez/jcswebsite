@@ -2657,13 +2657,22 @@ media (min-width: 768px) .container {
         margin-top: 1em;
     }
     .services-w3lsgrids {
-        padding: 0;
+        padding: 10px;
     }
+    .services-agileinfo{
+            padding-left: 6em;
+    }
+
     .services-w3text {
         padding: 3.2em 0;
         width: 170px;
         height: 170px;
     }
+
+    .services-w3text:before {
+    top: 56px;
+    }
+
     .news-w3lgrids {
         padding: 0 .5em;
     }
@@ -3280,7 +3289,10 @@ media (min-width: 768px) .container {
         margin: 1em 0 0;
     }
     .footer-grid {
-        padding: 0;
+        padding: 5px;
+    }
+    .footer-grid ul {
+        padding: 0px;
     }
     .footer-grid.footer-tags {
         padding-left: 0;
