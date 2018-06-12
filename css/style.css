@@ -1882,7 +1882,7 @@ h2.typoh2 {
     }
 
     ul.nav.navbar {
-        margin: -6em 0 0;
+        margin: 1em 0 0;
     }
 /*    .navbar-left a {
         display: none;
@@ -1892,6 +1892,11 @@ h2.typoh2 {
 
 }
 
+@media (max-width:1200px) {
+    ul.nav.navbar {
+        margin: -6em 0 0;
+    }
+}
 
 @media (max-width:990px) {
     .grid_5 {
