@@ -1863,6 +1863,13 @@ h2.typoh2 {
     text-align: ce
 }
 
+    .hdr-mobile {
+       /* display: none;*/
+       width: 126px;
+       height: 50px;
+       
+    }
+
 
 @media (max-width:1280px) {
     .icon-box {
@@ -1877,9 +1884,11 @@ h2.typoh2 {
     ul.nav.navbar {
         margin: -6em 0 0;
     }
-    .navbar-left a {
+/*    .navbar-left a {
         display: none;
     }
+*/
+
 
 }
 
@@ -1891,21 +1900,25 @@ h2.typoh2 {
     .grid_3 {
         margin-bottom: 0em;
     }
-    .hdr-w3left {
-        display: none;
-    }
-
     /*
     .navbar-left img {
         width: 100px;
         height: 130px;
     }
 */
-    .navbar-left a {
+/*    .navbar-left a {
+        display: none;
+    }*/
+
+    .hdr-mobile {
+       /* display: none;*/
+       width: 126px;
+       height: 50px;
+     
+    }
+  .hdr-w3left {
         display: none;
     }
-
-
 
 }
 
@@ -1957,9 +1970,7 @@ h2.typoh2 {
     .in-gp-tb {
         padding-right: 1em;
     }
-    .hdr-w3left {
-        display: none;
-    }
+
 }
 
 @media (max-width:480px) {
@@ -2008,12 +2019,12 @@ h2.typoh2 {
         width: 31%;
     }
 
-    .hdr-w3left {
-        display: none;
-    }
-
     .services-w3text:before {
     top: 55px;
+    }
+
+        .navbar-left a {
+        display: block;
     }
 }
 
@@ -2069,16 +2080,20 @@ h2.typoh2 {
         margin: 21px 0 12px;
     }
 
-    .hdr-w3left {
-        display: none;
-    }
 }
 
 media (min-width: 768px) .container {
     width: 775px;
+
+
 }
 
+@media (min-width: 1280px) {
+    .hdr-mobile {
+        display: none;
+    }
 
+}
 /*-- //pages --*/
 
 /*-- single --*/
@@ -2456,15 +2471,29 @@ media (min-width: 768px) .container {
     .w3welcome-img {
         min-height: 33.1em;
     }
+
+           .hdr-mobile {
+        display: none;
+    }
 }
 
 @media(max-width:1366px) {
     .w3welcome-img {
         min-height: 32.3em;
     }
+
+           .hdr-mobile {
+        display: none;
+    }
 }
 
 @media(max-width:1280px) {
+
+           .hdr-mobile {
+        display: none;
+    }
+
+
     .banner-w3text h2 {
         font-size: 8em;
     }
@@ -2497,6 +2526,8 @@ media (min-width: 768px) .container {
     .agileits-banner.about-w3lsbnr .banner-w3text {
         padding: 3em 0;
     }
+
+
 }
 
 @media(max-width:1080px) {
@@ -2560,6 +2591,11 @@ media (min-width: 768px) .container {
     }
     .about .bs-example-tabs ul.nav-tabs li {
         margin-right: 2em;
+    }
+
+
+        .hdr-mobile {
+        display: none;
     }
 }
 
@@ -2791,7 +2827,10 @@ media (min-width: 768px) .container {
 
 @media(max-width:767px) {
     .hdr-w3left.navbar-left {
-        float: left;
+    float: left;
+    background-color: red;
+    width: 126px;
+    height: 50px;
     }
     .w3ls-bnr-icons {
         float: right;
@@ -3131,6 +3170,8 @@ media (min-width: 768px) .container {
     .w3welcome-img {
         min-height: 17em;
     }
+
+
 }
 
 @media(max-width:414px) {
@@ -3303,6 +3344,11 @@ media (min-width: 768px) .container {
     }
     .footer-grid input[type="submit"] {
         padding: 0.6em 1.2em;
+    }
+
+        .hdr-w3left.navbar-left {
+        float: left;
+        background-color: red;
     }
 }
 
