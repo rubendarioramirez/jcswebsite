@@ -1413,6 +1413,11 @@ h3.bars {
     border-top: none !important;
 }
 
+.myTable, th, td {
+    border: 1px solid black;
+}
+
+
 .tab-content > .active {
     display: block;
     visibility: visible;
